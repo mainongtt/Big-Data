@@ -22,7 +22,7 @@ public class LogRecordWriter extends RecordWriter<Text, NullWritable> {
         try {
             FileSystem fileSystem = FileSystem.get(job.getConfiguration());
             fsdataoutputstream = fileSystem.create(new Path("D:\\toolsetup\\output\\atguigu.log"));
-            dataOutputStream = fileSystem.create(new Path("\"D:\\\\toolsetup\\\\output\\\\other.log"));
+            dataOutputStream = fileSystem.create(new Path("D:\\toolsetup\\output\\other.log"));
         } catch (IOException e) {
             e.printStackTrace();
         }

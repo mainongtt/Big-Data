@@ -29,10 +29,10 @@ public class LogDriver {
         //设置自定义的outputformat
         job.setOutputFormatClass(LogOutputFormat.class);
 
-        FileInputFormat.setInputPaths(job, new Path("D:\\input"));
+        FileInputFormat.setInputPaths(job, new Path("D:\\toolsetup\\input\\inputoutputformat"));
         //虽然我们自定义了outputformat，但是因为我们的outputformat继承自fileoutputformat
         //而fileoutputformat要输出一个_SUCCESS文件，所以在这还得指定一个输出目录
-        FileOutputFormat.setOutputPath(job, new Path("D:\\logoutput"));
+        FileOutputFormat.setOutputPath(job, new Path("D:\\toolsetup\\output\\outputformat"));
 
         boolean b = job.waitForCompletion(true);
         System.exit(b ? 0 : 1);
