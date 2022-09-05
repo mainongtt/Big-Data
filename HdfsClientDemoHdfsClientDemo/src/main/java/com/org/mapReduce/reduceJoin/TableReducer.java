@@ -1,4 +1,4 @@
-package com.org.mapReduce.ReduceJoin;
+package com.org.mapReduce.reduceJoin;
 
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.hadoop.io.NullWritable;

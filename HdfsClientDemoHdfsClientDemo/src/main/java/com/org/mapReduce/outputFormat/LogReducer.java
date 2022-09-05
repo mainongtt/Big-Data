@@ -1,4 +1,4 @@
-package com.org.mapReduce.OutputFormat;
+package com.org.mapReduce.outputFormat;
 
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;

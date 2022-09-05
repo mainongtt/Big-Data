@@ -1,6 +1,6 @@
-package com.org.mapReduce.Elt;
+package com.org.mapReduce.elt;
 
-import com.org.mapReduce.OutputFormat.LogDriver;
+import com.org.mapReduce.outputFormat.LogDriver;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.NullWritable;
@@ -10,6 +10,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class WeblogDriver {
+
     public static void main(String[] args) throws Exception {
 
         // 输入输出路径需要根据自己电脑上实际的输入输出路径设置
@@ -41,4 +42,5 @@ public class WeblogDriver {
         System.exit(b ? 0 : 1);
     }
 
+    
 }

@@ -1,4 +1,4 @@
-package com.org.mapReduce.ReduceJoin;
+package com.org.mapReduce.reduceJoin;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;

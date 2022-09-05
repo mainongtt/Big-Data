@@ -1,6 +1,6 @@
 package com.org.mapReduce.mapJoin;
 
-import com.org.mapReduce.ReduceJoin.TableReducer;
+import com.org.mapReduce.reduceJoin.TableReducer;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.NullWritable;

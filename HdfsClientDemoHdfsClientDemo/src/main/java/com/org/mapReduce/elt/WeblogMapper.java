@@ -1,4 +1,4 @@
-package com.org.mapReduce.Elt;
+package com.org.mapReduce.elt;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;
